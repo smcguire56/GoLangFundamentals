@@ -11,7 +11,7 @@ func main() {
 	fmt.Print("Enter String: ")
 	text, _ := reader.ReadString('\n')
 	fmt.Println(text)
-	strings.TrimSuffix(text, "\n")
+    text = strings.Replace(text, "\r\n", "", -1)
 	fmt.Printf("%t",isPalindrom(text))
 }
 
