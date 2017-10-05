@@ -1,3 +1,7 @@
+// Palindrome in Go lang.
+// https://github.com/smcguire56/GoLangFundamentals :: 2017-10-05
+// Sean McGuire
+
 package main
 
 import (
@@ -18,7 +22,6 @@ func main() {
 
 func isPalindrom(word string) bool {
 	var i1 int = 0
-	// what am i doing with my life
 	var i2 int = len(word) - 1
 
 	for i2 >= i1 {

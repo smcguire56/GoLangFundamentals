@@ -1,3 +1,6 @@
+// high low in Go.
+// https://github.com/smcguire56/GoLangFundamentals :: 2017-10-05
+// Sean McGuire
 package main
 
 import "fmt"
@@ -11,7 +14,6 @@ func main() {
 
 	fmt.Printf("Highest: %d\n", getHighestNumber(list))
 	fmt.Printf("Lowest: %d", getLowestNumber(list))
-
 }
 
 func getHighestNumber(list []int) int {

@@ -2,6 +2,8 @@
 // two sorted lists into a new sorted list,
 // e.g. merge([1,4,6], [2,3,5]) = [1,2,3,4,5,6].
 
+// https://github.com/smcguire56/GoLangFundamentals :: 2017-10-05
+// Sean McGuire
 package main
 
 import "fmt"
